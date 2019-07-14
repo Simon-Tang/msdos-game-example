@@ -13,11 +13,11 @@ This has only been tested on Linux; this should work on Mac if `dosbox` is added
 
 ### Setup
 
-1. Download Turbo C 2.01: [Turbo C 2.01](https://cc.embarcadero.com/item/25636) ([Embarcadero post](https://edn.embarcadero.com/article/20841))
-2. Extract the Turbo C files into `tools/TC`, so `tools/TC/TCC.EXE` exists
+1. Download [Turbo C 2.01](https://cc.embarcadero.com/item/25636)
+2. Extract the Turbo C files into `tools/TC`, so `tools/TC/TCC.EXE` is present
 3. Install [DOSBox](https://www.dosbox.com/)
 4. Ensure `dosbox` is in your PATH
-5. (Optional) Install [EditorConfig](https://editorconfig.org) support
+5. (Optional) Install [EditorConfig](https://editorconfig.org) plugin
 
 ### Build / Run
 
@@ -31,6 +31,7 @@ Turbo C uses an old C version and runs on DOS, so ensure that:
 
 -   All comments are block comments (`/* ... */`)
 -   All source files (inside `src`) use Windows line endings (CRLF)
+-   All variables are declared at the beginning of scope blocks
 
 ### Turbo C 2.01 Compiler Help
 
