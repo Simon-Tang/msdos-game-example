@@ -8,6 +8,6 @@ if [ -f "$executable" ]
 then
     dosbox -conf ./run.dosbox-firedude.conf
 else
-    echo 'Error: ./build.FIREDUDE.EXE is missing.'
-    exit 1
+    echo "Error: $executable is missing."
+    exit 3
 fi

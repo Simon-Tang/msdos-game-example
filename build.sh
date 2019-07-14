@@ -18,7 +18,7 @@ if [ ! -f "$buildlog" ]
 then
     echo 'Error: No build log found.'
     exit 4
-elif grep --quiet 'errors in Compile' $buildlog
+elif grep --quiet 'error\|Error\|Undefined symbol' $buildlog
 then
     echo 'Error(s) during compilation:'
     echo
