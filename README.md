@@ -60,3 +60,24 @@ Syntax is: TCC [ options ] file[s]       * = default; -x- = turn switch x off
   -wxxx   Enable warning xxx              -w-xxx  Disable warning xxx
   -y      Produce line number info        -zxxx   Set segment names
 ```
+
+### Resources
+
+These are some excellent resources for MS-DOS development:
+
+#### MS-DOS game programming
+
+| Author               | Resource                                                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Alex Russell         | [Alex Russell's Dos Game Programming in C for Beginners](http://www3.telus.net/alexander_russell/course/introduction.htm) |
+| GameBub              | [C++ Graphics: MS-DOS Games](https://dos.gamebub.com/cpp.php)                                                             |
+| David Brackeen       | [256-Color VGA Programming in C](http://www.brackeen.com/vga/index.html)                                                  |
+| Dr. William T. Verts | [The VGA and 256 Colors](https://people.cs.umass.edu/~verts/cs32/vga_320.html)                                            |
+| Ben Lunt             | [DOS Programming, Undocumented DOS, and DOS Secrets](http://www.fysnet.net/)                                              |
+
+#### Turbo C
+
+| Author         | Resource                                                                                             |
+| -------------- | ---------------------------------------------------------------------------------------------------- |
+| Betelgeuse LLC | [Turbo C Programming Using Turbo C++ Compiler](http://www.softwareandfinance.com/Turbo_C/Index.html) |
+| Shreeharsha P. | [Turbo C Graphics Programming](http://electrosofts.com/cgraphics/)                                   |
