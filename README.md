@@ -2,7 +2,7 @@
 
 ## Playing
 
-### Setup
+(tba - I'm still working on this.)
 
 1. Install [DOSBox](https://www.dosbox.com/)
 2. Run `dist/FIREDUDE.EXE` inside DOSBox
