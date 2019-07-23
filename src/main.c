@@ -14,6 +14,10 @@ int main(void)
         return 1;
     }
 
+    sound(0x14 * 4);
+    delay(600);
+    sound(0x18 * 4);
+
     for (y = 0; y < SCREEN_H; y++) {
         line_h(0, y, SCREEN_W, 256 * y / SCREEN_H);
         if (y % (SCREEN_H / 16) == 0) {
@@ -21,7 +25,12 @@ int main(void)
         }
     }
     repaint();
-
+    
+    delay(200);
+    nosound();
+    delay(400);
+    sound(0x18 * 4);
+    
     for (y = 0; y < 100; y++) {
         line_h(100, y, 5, 15);
     }
@@ -32,10 +41,17 @@ int main(void)
     }
     repaint();
 
+    delay(400);
+    nosound();
+    delay(400);
+    sound(0x10 * 4);
+
     for (x = 40; x < 150; x+=2) {
         line(x, 50, x, 90, 12);
     }
     repaint();
+
+    sound(0x10 * 4);
 
     rect_fill(130, 80, 48, 64, 10);
     repaint();
@@ -45,7 +61,8 @@ int main(void)
         line(x, y, SCREEN_W - x, SCREEN_H - y, 30);
         repaint();
     }
-
+    
+    nosound();
     x = 0;
     y = 0;
     while (1) {
@@ -53,9 +70,6 @@ int main(void)
             if (key_event.key_code == 0x01) {
                 /* ESC */
                 break;
-            } else if (key_event.key_code == 0x39) {
-                /* Space */
-                nosound();
             }
             if (key_event.is_keydown) {
                 rect_fill(
@@ -70,6 +84,8 @@ int main(void)
                     y = (y + 1) % 12;
                 }
                 sound(key_event.key_code * 4);
+            } else {
+                nosound();
             }
         }
         repaint();
