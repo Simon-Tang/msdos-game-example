@@ -1,8 +1,8 @@
-# Firedude
+# MSDOS-Game-Example
+
+This is an example of a setup for building an MS-DOS game in modern Linux/Mac/Windows with some automation in DOSBox. There's no actual game in this repo but this is a good starting template for a project.
 
 ## Playing
-
-(tba - I'm still working on this.)
 
 1. Install [DOSBox](https://www.dosbox.com/)
 2. Run `dist/FIREDUDE.EXE` inside DOSBox
