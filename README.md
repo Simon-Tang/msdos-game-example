@@ -19,7 +19,7 @@ This has only been tested on Linux; this should work on Mac if `dosbox` is added
 1. Extract `tasm/BIN/TASM.EXE` to `tools/TASM/TASM.EXE`
 1. Install [DOSBox](https://www.dosbox.com/)
 1. Ensure `dosbox` is in your PATH
-1. (Optional) Install [EditorConfig](https://editorconfig.org) plugin
+1. (Optional) Install [EditorConfig](https://editorconfig.org) plugin - most critically, the `.editorconfig` files enforce line endings in `./src`.
 
 ### Build / Run
 
