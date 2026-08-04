@@ -112,3 +112,9 @@ These are some excellent resources for MS-DOS development:
 | Betelgeuse LLC | [Turbo C Programming Using Turbo C++ Compiler](http://www.softwareandfinance.com/Turbo_C/Index.html)                  |
 | Shreeharsha P. | [Turbo C Graphics Programming](http://electrosofts.com/cgraphics/)                                                    |
 | Trim Tab       | [TASM 5 Intel 8086 Turbo Assembler Download](http://trimtab.ca/2010/tech/tasm-5-intel-8086-turbo-assembler-download/) |
+
+#### See also
+
+| Author                     | Resource                                                                                   |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| RetroGinger/GingerNinjaLab | [`dosbox-turboc`](https://github.com/GingerNinjaLab/dosbox-turboc) (another similar guide) |
